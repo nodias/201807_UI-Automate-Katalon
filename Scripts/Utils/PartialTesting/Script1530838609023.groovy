@@ -35,13 +35,12 @@ for (def var : listValues) {
     }
 }
 
-def keys = ["QAC-3","QAC-4"]
+def keys = ['QAC-3', 'QAC-4']
 
-for (def var : keys){
-	println var
-//	WebUI.callTestCase(findTestCase('Main Test Cases/'+var), [:],
-//		FailureHandling.STOP_ON_FAILURE)
+for (def var : keys) {
+    println(var) //	WebUI.callTestCase(findTestCase('Main Test Cases/'+var), [:],
+    //		FailureHandling.STOP_ON_FAILURE)
+
+    println(GlobalVariable.Phase)
 }
-
-
 

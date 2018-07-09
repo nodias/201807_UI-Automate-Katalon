@@ -13,7 +13,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\nodia\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Utils\\PartialTesting\\20180709_150224\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\nodia\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Utils\\PartialTesting\\20180709_165926\\execution.properties')
 
 TestCaseMain.beforeStart()
 

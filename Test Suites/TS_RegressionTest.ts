@@ -4,7 +4,7 @@
    <name>TS_RegressionTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2016-12-28T21:43:44</lastRun>
+   <lastRun>2018-07-09T16:26:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,27 +12,9 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>1286ccc6-2057-418d-87af-23d00cc6cd0e</testSuiteGuid>
    <testCaseLink>
-      <guid>12b1ed24-3d2b-4bed-87e1-7c72470cdce7</guid>
+      <guid>b36400f6-08c1-47c6-8f05-902d8f860b5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/QAC-3</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>14d98e7b-4ac8-4e28-8ce7-394001d188f0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a97344e7-5f9c-4936-92a2-d85e5463f3c9</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/QAC-4</testCaseId>
+      <testCaseId>Test Cases/Utils/PartialTesting</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

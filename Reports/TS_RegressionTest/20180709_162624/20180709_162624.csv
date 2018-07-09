@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-07-09 16:26:30,2018-07-09 16:26:31,0.816s,PASSED
+,,,,,,
+Test Cases/Utils/PartialTesting,,,2018-07-09 16:26:30,2018-07-09 16:26:31,0.444s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(zapi/getVersionStatus)),,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.153s,PASSED
+Statement - arrayVersions = responseText,,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.003s,PASSED
+Statement - list = new groovy.json.JsonSlurper().parseText(arrayVersions),,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.013s,PASSED
+Statement - listValues = values,,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.000s,PASSED
+Statement - versions = [],,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.000s,PASSED
+Statement - For (def var : listValues),,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.024s,PASSED
+"Statement - keys = [""QAC-3"", ""QAC-4""]",,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.000s,PASSED
+Statement - For (def var : keys),,,2018-07-09 16:26:31,2018-07-09 16:26:31,0.021s,PASSED

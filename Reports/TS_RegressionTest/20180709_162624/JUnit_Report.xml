@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="1" failures="0" errors="0" time="0" timestamp="2018-07-09 16:26:30" hostname="nodia - SEONGSU" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nodia\\Katalon Studio\\UI_Katalon\\Reports\\TS_RegressionTest\\20180709_162624"/>
+         <property name="logFiles" value="C:\\Users\\nodia\\Katalon Studio\\UI_Katalon\\Reports\\TS_RegressionTest\\20180709_162624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nodia - SEONGSU"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Utils/PartialTesting" classname="Test Cases/Utils/PartialTesting" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:26:30 - [TEST_CASE][PASSED] - Test Cases/Utils/PartialTesting: Test Cases/Utils/PartialTesting
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(zapi/getVersionStatus)): Send request successfully
+
+2018-07-09 16:26:31 - [MESSAGE][PASSED] - Send request successfully
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - arrayVersions = responseText: null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - list = new groovy.json.JsonSlurper().parseText(arrayVersions): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - listValues = values: null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - versions = []: null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - For (def var : listValues): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - date1 = java.util.Date.parse("yyyy-MM-dd", startDate): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - date2 = java.util.Date.parse("yyyy-MM-dd", releaseDate): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - date3 = new java.util.Date(): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - If (date3 > date1 || date3 < date2): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - versions.add(id): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - keys = ["QAC-3", "QAC-4"]: null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - For (def var : keys): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - println(var): null
+
+2018-07-09 16:26:31 - [TEST_STEP][PASSED] - Statement - println(var): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 16:26:30 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/Utils/PartialTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
