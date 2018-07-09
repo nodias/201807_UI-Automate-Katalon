@@ -19,4 +19,9 @@
       <initValue>5</initValue>
       <name>G_ShortTimeOut</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kr_st'</initValue>
+      <name>phase</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

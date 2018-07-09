@@ -28,12 +28,17 @@ public class GlobalVariable {
      */
     public static Object G_ShortTimeOut
      
+    /**
+     * <p></p>
+     */
+    public static Object phase
+     
 
     static {
         def allVariables = [:]        
         allVariables.put('default', ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
-        allVariables.put('kr_dv', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
-        allVariables.put('kr_st', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
+        allVariables.put('kr_dv', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5, 'phase' : 'kr_dv'])
+        allVariables.put('kr_st', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5, 'phase' : 'kr_st'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -41,6 +46,7 @@ public class GlobalVariable {
         G_Timeout = selectedVariables['G_Timeout']
         G_SiteURL = selectedVariables['G_SiteURL']
         G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
+        phase = selectedVariables['phase']
         
     }
 }
