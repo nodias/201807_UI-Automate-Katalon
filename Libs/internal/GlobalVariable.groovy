@@ -32,6 +32,8 @@ public class GlobalVariable {
     static {
         def allVariables = [:]        
         allVariables.put('default', ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
+        allVariables.put('kr_dv', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
+        allVariables.put('kr_st', allVariables['default'] + ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
