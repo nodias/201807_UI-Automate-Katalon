@@ -9,7 +9,7 @@ Steps:
 
 Expected results:
 Appointment Confirmation page is displayed</description>
-   <name>TC2_Verify Successful Appointment</name>
+   <name>QAC-4</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c880ce98-5804-476f-88e9-c34919fccc5d</testCaseGuid>

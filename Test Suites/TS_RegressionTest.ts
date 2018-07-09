@@ -15,7 +15,7 @@
       <guid>12b1ed24-3d2b-4bed-87e1-7c72470cdce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/QAC-3</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -33,6 +33,6 @@
       <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Appointment</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/QAC-4</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
