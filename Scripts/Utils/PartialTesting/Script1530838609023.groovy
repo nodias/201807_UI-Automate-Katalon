@@ -41,6 +41,6 @@ for (def var : keys) {
     println(var) //	WebUI.callTestCase(findTestCase('Main Test Cases/'+var), [:],
     //		FailureHandling.STOP_ON_FAILURE)
 
-    println(GlobalVariable.Phase)
+    println(GlobalVariable.phase)
 }
 
